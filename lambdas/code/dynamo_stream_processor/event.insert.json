@@ -1,0 +1,58 @@
+{
+    "Records": [
+        {
+            "eventID": "79635b7edcd26acc8ae8fb3f093a667e",
+            "eventName": "INSERT",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1697738500.0,
+                "Keys": {
+                    "ProfileId": {
+                        "S": "6dc80ee3fa874a9e84457a8b81d35f3e"
+                    }
+                },
+                "NewImage": {
+                    "ProfileId": {
+                        "S": "6dc80ee3fa874a9e84457a8b81d35f3e"
+                    },
+                    "GenderString": {
+                        "S": "MALE"
+                    },
+                    "DomainName": {
+                        "S": "cxlatam"
+                    },
+                    "EventTimestamp": {
+                        "S": "2023-10-19T13:26:22.976Z"
+                    },
+                    "EventType": {
+                        "S": "UPDATED"
+                    },
+                    "FirstName": {
+                        "S": "Enrique"
+                    },
+                    "ObjectTypeName": {
+                        "S": "_profile"
+                    },
+                    "PhoneNumber": {
+                        "S": "+56974769647"
+                    },
+                    "Gender": {
+                        "S": "MALE"
+                    },
+                    "LastName": {
+                        "S": "Rodriguez"
+                    },
+                    "MiddleName": {
+                        "S": "Alberto"
+                    }
+                },
+                "SequenceNumber": "100000000047623302060",
+                "SizeBytes": 274,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:461004555540:table/Cust-Profiles-DynamoDB-TCustomerProfilesF862CF05-1NYARI5WTBE7C/stream/2023-10-19T17:57:24.719"
+        }
+    ]
+}

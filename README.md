@@ -1,16 +1,19 @@
 
-# Welcome to your CDK Python project!
+# Amazon Connect Customer Profiles / DynamoDB Table Sync
 
-This is a blank project for CDK development with Python.
+This project is simples and the objective is to capture customer profiles changes in connect and reflect that on a dynamodb Table.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+On the other hand customer, you can modify or create items and push that to Amazon Connect.
 
-This project is set up like a standard Python project.  The initialization
-process also creates a virtualenv within this project, stored under the `.venv`
-directory.  To create the virtualenv it assumes that there is a `python3`
-(or `python` for Windows) executable in your path with access to the `venv`
-package. If for any reason the automatic creation of the virtualenv fails,
-you can create the virtualenv manually.
+
+## Diagram
+
+![](customer-profiles.jpg)
+
+
+## Instructions
+
+This will create the kinesis data streams, lambdas, dynamodb tables. You'll need an amazon connect instance.
 
 To manually create a virtualenv on MacOS and Linux:
 

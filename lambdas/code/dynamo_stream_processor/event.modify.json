@@ -1,0 +1,84 @@
+{
+    "Records": [
+        {
+            "eventID": "222fbedf90a5f3d999c2574abd4c0403",
+            "eventName": "MODIFY",
+            "eventVersion": "1.1",
+            "eventSource": "aws:dynamodb",
+            "awsRegion": "us-east-1",
+            "dynamodb": {
+                "ApproximateCreationDateTime": 1697738596.0,
+                "Keys": {
+                    "ProfileId": {
+                        "S": "be733fb314a342f4b0d46774b557bebd"
+                    }
+                },
+                "NewImage": {
+                    "ProfileId": {
+                        "S": "be733fb314a342f4b0d46774b557bebd"
+                    },
+                    "GenderString": {
+                        "S": "FEMALE"
+                    },
+                    "DomainName": {
+                        "S": "cxlatam"
+                    },
+                    "EventTimestamp": {
+                        "S": "2023-10-19T18:03:07.538Z"
+                    },
+                    "EventType": {
+                        "S": "UPDATED"
+                    },
+                    "FirstName": {
+                        "S": "Elizabeth"
+                    },
+                    "ObjectTypeName": {
+                        "S": "_profile"
+                    },
+                    "Gender": {
+                        "S": "FEMALE"
+                    },
+                    "LastName": {
+                        "S": "Fuentes"
+                    },
+                    "BirthDate": {
+                        "S": "2023-10-09"
+                    }
+                },
+                "OldImage": {
+                    "ProfileId": {
+                        "S": "be733fb314a342f4b0d46774b557bebd"
+                    },
+                    "GenderString": {
+                        "S": "FEMALE"
+                    },
+                    "DomainName": {
+                        "S": "cxlatam"
+                    },
+                    "EventTimestamp": {
+                        "S": "2023-10-19T18:02:39.968Z"
+                    },
+                    "EventType": {
+                        "S": "CREATED"
+                    },
+                    "FirstName": {
+                        "S": "Elizabeth"
+                    },
+                    "ObjectTypeName": {
+                        "S": "_profile"
+                    },
+                    "Gender": {
+                        "S": "FEMALE"
+                    },
+                    "LastName": {
+                        "S": "Fuentes"
+                    }
+                },
+                "SequenceNumber": "200000000059171748783",
+                "SizeBytes": 454,
+                "StreamViewType": "NEW_AND_OLD_IMAGES"
+            },
+            "eventSourceARN": "arn:aws:dynamodb:us-east-1:461004555540:table/Cust-Profiles-DynamoDB-TCustomerProfilesF862CF05-1NYARI5WTBE7C/stream/2023-10-19T17:57:24.719"
+        }
+    ]
+}
